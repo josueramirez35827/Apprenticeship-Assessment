@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+  <title>Apprentice Performance Task</title>
+</head>
+
+
+
+
+<body>
+
+<div onload="DefaultScreen()">
+
+      <h1 class="title" id="Para1">5 Days Weather Forecast</h1>
+      <div class="intro">
+        <p id="inputContainer">City: <input type="text" id="cityInput"></p>
+        <button type="button" class="btn" onclick="GetInfo()"> Get Weather </button>        
+      </div>
+      <div class="intro" >
+        <h2 id="cityName"> Enter City </h2>
+      </div>
+
+  
+  <div class="todo-lists" id = "weatherContainer">
+      <div class="weather-list" id="iconsContainer">    
+          <div class = "icons">
+              <p class="weather" id="day1"></p>
+              <div class="image"><img src="dots.png" class="imgClass" id="img1"></div>
+              <p class="minValues" id="day1Min">Loading...</p>
+              <p class="maxValues" id="day1Max">Loading...</p>
+          </div>
+          <div class = "icons">
+              <p class="weather" id="day2"></p>
+              <div class="image"><img src="dots.png" class="imgClass" id="img2"></div>
+              <p class="minValues" id="day2Min">Loading...</p>
+              <p class="maxValues" id="day2Max">Loading...</p>
+          </div>
+          <div class = "icons">
+              <p class="weather" id="day3"></p>
+              <div class="image"><img src="dots.png" class="imgClass" id="img3"></div>
+              <p class="minValues" id="day3Min">Loading...</p>
+              <p class="maxValues" id="day3Max">Loading...</p>
+          </div>
+          <div class = "icons">
+              <p class="weather" id="day4"></p>
+              <div class="image"><img src="dots.png" class="imgClass" id="img4"></div>
+              <p class="minValues" id="day4Min">Loading...</p>
+              <p class="maxValues" id="day4Max">Loading...</p>
+          </div>
+          <div class = "icons">
+              <p class="weather" id="day5"></p>
+              <div class="image"><img src="dots.png" class="imgClass" id="img5"></div>
+              <p class="minValues" id="day5Min">Loading...</p>
+              <p class="maxValues" id="day5Max">Loading...</p>
+          </div>
+      </div>
+  </div>
+
+
+      <script src="scriptiii.js"></script>
+</div>
+
+
+
+
+<div>
+  <h1 class = "title">
+    To Do List
+  </h1>
+
+  <div class="todo-list">
+    <div class="list-head">
+      <input type="text" class="entered-list">
+      <button class="add-list"> ADD </button>
+    </div>
+
+
+    <div class="task">
+      <!-- <div class="item ">
+         <p>new item here</p>
+        <div class="item-btn">
+          <i class="fa-solid fa-pen-to-square"></i>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div> -->
+    </div>
+  </div>
+
+
+
+  <script src = "./script.js"></script>
+</div>
+
+</body>
+</html>
